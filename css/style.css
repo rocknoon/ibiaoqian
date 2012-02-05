@@ -1,0 +1,90 @@
+/* reset end  - 可根据实际项目调整相关值 */
+body, h1, h2, h3, h4, h5, p, ul, ol, dl, dd, input { margin:0;}
+button { padding:0; }
+ul{ padding-left:0; list-style:none; }
+ol{ padding-left:0; list-style-position:inside;}
+a { text-decoration:none; color: #407ACC; }
+a img { border:none; }
+a:focus, a:active { outline:none;}
+h1 { font-weight: 200;  color: black; padding: 10px 0px;}
+h2 { font-size:21px; color: black;}
+h3 { font-size:18px; color: black;}
+h4 { font-size:15px; color: black;}
+table { border-collapse:collapse; border-spacing:0; }
+fieldset, img { border:none; }
+cite, em, i { font-style:normal; }
+small { font-size:11px; }
+p{ line-height:18px; }
+
+/* reset end  - 可根据实际项目调整相关值 */
+
+.cl { clear:both; }
+.cf:after { content:"."; display:block; height:0; overflow:hidden; clear:both; }
+* html .cf { height:1%;}
+* + html .cf { height:1%;}
+
+
+/*  项目css */
+
+body { font: 13px Arial,Helvetica,sans-serif; background: #EEF2F5;
+	   padding-top:60px; _padding-top:0px;	
+	  }
+
+.panel { border: 1px solid #CCC; background: white; box-shadow: 0 2px 10px #aaa; }
+.input { background: #FCFCFC; border: 1px solid #D9D9D9; color: #4D4D4D; padding:6px; box-shadow: inset rgba(0, 0, 0, 0.1) 0 0 3px; border-radius: 5px; }
+.input:hover{ background:#fefefe;border:1px solid #b3b3b3; }
+.input:focus{background:#fefefe;border:1px solid #b3b3b3;color:#333;box-shadow:none;}
+.button { box-shadow: 1px 1px 2px #aaa; border: 1px solid #4FB00F; background: #5ECA16; background: linear-gradient(top,#5ECA16 0,#54B514 100%); color: white; display:block; font-weight: bold;
+		 text-align: center; cursor: pointer;  border-radius: 4px; padding: 6px 19px; _border:0px; }
+
+.share-a{ display: block; width: 32px; height: 32px; margin-right: 5px; background: url(images/share.gif) no-repeat 0 0;-webkit-transition:all .6s ease-out;-moz-transition:all .6s ease-out;
+	-o-transition:all .6s ease-out; transition:all .6s ease-out;border-radius: 5px; }
+.share-a:hover { -webkit-transform:rotate(-360deg) scale(1.20);-moz-transform:rotate(-360deg) scale(1.20);-o-transform:rotate(-360deg) scale(1.20);
+	transform:rotate(-360deg) scale(1.20);box-shadow:0 1px 15px rgba(0,102,204,.5);-moz-box-shadow:0 1px 15px rgba(0,102,204,.5);-webkit-box-shadow:0 1px 15px rgba(0,102,204,.5) }
+.share-renren { background-position: 0 -64px; }
+
+#header { padding: 10px 0px; background:url( images/header_bg.png ) repeat-x; position:fixed; width:100%; top:0; left:0;
+			_margin-bottom:15px;}
+#header .content { width:960px; margin:0 auto; }
+#header .logo{ display:block;float:left; background:url( images/logo.png ) no-repeat; padding-left:105px;line-height:29px; 
+			   text-shadow:0px 1px 0px #222728; color:white; _display:inline; }
+
+
+#header .nav { float:right; margin-right:10px; _display:inline; }
+#header .top-a { display:block; _display:inline; height:29px;line-height:29px;
+				text-shadow:0px 1px 0px #222728; color:white; padding:0 8px; }  
+#header .top-li { float:left; }
+
+#wrapper { width:960px; margin:0 auto; }
+
+.login-panel { width:440px; margin:0 auto; padding:20px; margin-top:50px;}
+.login-panel h3 { margin:0px 0px 20px 0px; float:left; }
+.login-panel .login-item { margin: 0 0 10px; }
+.login-panel label { display:block; }
+.login-panel .input{ margin:5px 0px; width: 80%; }
+.login-panel .button { width:70px; height:30px; }
+.login-panel .socials { float:right; margin-right:20px; }
+.login-panel .socials li { float:left; }
+
+
+.whole-panel { background-color:#fcfcfc;  }
+
+.links-panel { padding: 20px 0px; width: 700px; float:left; background-color:white; border-right:1px solid #e8e9eb; }
+.links-panel .filter{ background: #F9FAFA; padding: 10px 15px; height:20px; border-top: 1px solid #DDD; border-bottom: 1px solid #DDD;}
+.link .date{ border-bottom: 1px solid #E9ECEE;padding: 10px 15px; color: #999; }
+.link-item { padding:15px; border-bottom: 1px solid #E9ECEE; }
+.link-item .content { width:580px; }
+.link-item .title { color: #407ACC; }
+.link-item .info { margin:5px 0px; }
+.link-item .info .saves { color: #407ACC; }
+.link-item .info .url { color: #999; }
+.link-item .brief {  }
+
+.profile-panel { padding: 20px 0px 20px 20px; float:left; width:239px; }
+.profile-panel .header-image { margin-bottom:8px; box-shadow: 1px 1px 2px #aaa; border:1px solid #E8E9EB; width:150px; height:150px; display:block;padding: 5px;}
+.profile-panel h4 { padding:5px 0px; }
+.profile-panel .add-link { width:160px; height:40px; margin-bottom:20px; font-size:16px; }
+
+.cms-panel { padding:20px; }
+.cms-panel h3 { padding:10px 0px 20px 0px; }
+.cms-panel p { padding-bottom:16px; width:900px; text-indent:20px; line-height:20px; }
